@@ -43,7 +43,7 @@ header {
 .icones__sociais {
     width: 33px;
     height: auto;
-    margin: 0.5px;
+    margin: 5px 0px 5px 0px;
 }
 
 .box__externo__conteudo {
@@ -106,42 +106,42 @@ a.facebook:hover {
     content: url(facebook_logo.png);
     width: 33px;
     height: auto;
-    margin: 0.5px;
+    margin: 5px 0px 5px 0px;
 }
 
 a.instagram:hover {
     content: url(instagram_logo.png);
     width: 33px;
     height: auto;
-    margin: 0.5px;
+    margin: 5px 0px 5px 0px;
 }
 
 a.twitter:hover {
     content: url(twitter_logo.png);
     width: 33px;
     height: auto;
-    margin: 0.5px;
+    margin: 5px 0px 5px 0px;
 }
 
 a.linkedin:hover {
     content: url(linkedin_logo.png);
     width: 33px;
     height: auto;
-    margin: 0.5px;
+    margin: 5px 0px 5px 0px;
 }
 
 a.github:hover {
     content: url(GitHub_logo_dark.png);
     width: 33px;
     height: auto;
-    margin: 0.5px;
+    margin: 5px 0px 5px 0px;
 }
 
 a.whatsapp:hover {
     content: url(Whatsapp_logo.png);
     width: 33px;
     height: auto;
-    margin: 0.5px;
+    margin: 5px 0px 5px 0px;
 }
 
 .img__logo {

@@ -71,8 +71,7 @@ CSS dispositivos Moveis
     .icones__sociais {
         width: 25px;
         height: auto;
-        margin-left: 0.2px;
-        margin-right: 0.2px;
+        margin: 8px 0px 5px 0px;
     }
     h1,
     h3,
