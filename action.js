@@ -3,11 +3,12 @@ let colorir = () => {
     // Salva o body em uma variável
     let body = document.querySelector('body');
 
-    // Faz o corpo mudar para o modo claro/escuro
+    // Faz o corpo mudar para o modo Good Vibes
     body.classList.toggle('colorir');
     
     
     // Altera o ícone de acordo com o modo
+    // outrea hora otimizo essa pate aqui
     if(body.classList.contains('colorir')) {
     document.querySelector('.botao__colorir').innerHTML = 'Modo Serio';
   
@@ -63,10 +64,12 @@ let colorir = () => {
     let whatsapp = document.querySelector('#whatsapp');
     whatsapp.setAttribute('src', 'Whatsapp_logo_dark__2.png');
     
-    let butt = document.querySelector('.button').style;
-    butt.backgroundColor = "#F22558";
+    // let butt = document.querySelector('.button').style;
+    // butt.backgroundColor = "#F22558";
 
- 
+    let a = document.querySelector('.button');
+    a.classList.remove('button');
+    a.classList.toggle('button2');
 
 
     } else {
@@ -124,8 +127,12 @@ let colorir = () => {
     titulo3.classList.remove('colorir__titulo');
     titulo3.classList.toggle('p__titulo__3');
     
-    let butt = document.querySelector('.button').style;
-    butt.backgroundColor = "#000";
+    // let butt = document.querySelector('.button').style;
+    // butt.backgroundColor = "#000";
+
+    let a = document.querySelector('.button2');
+    a.classList.remove('button2');
+    a.classList.toggle('button');
 
     }
     
