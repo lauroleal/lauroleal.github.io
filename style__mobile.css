@@ -5,113 +5,112 @@ CSS dispositivos Moveis
 */
 
 
+/* phones, 600px ou menores */
 
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-   
-    .switch + label { 
+    .switch+label {
         position: relative;
         cursor: pointer;
         outline: none;
         user-select: none;
-      }
-    
-      .botao__colorir{
+    }
+    .botao__colorir {
         position: relative;
-        color:#ffffff;
+        color: #ffffff;
         margin-top: 18px;
         font-family: 'Questrial';
         font-size: 10px;
         font-weight: bold;
-        
-        }
-        body{
-          background-image: url("back__mobile.png");
-          background-repeat: no-repeat;
-          background-size: auto;
-          height: auto;
-          margin: 0px auto 0;
-          position: relative;
-        }
-        
-
-      .colorir{
+    }
+    body {
+        background-image: url("back__mobile.png");
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: auto;
+        margin: 0px auto 0;
+        position: relative;
+    }
+    .colorir {
         background-image: url("back__mobile__colorir.png");
         background-repeat: no-repeat;
         background-size: auto;
         height: auto;
-    margin: 0px auto 0;
-    position: relative;
-        
-      }
-
-        header{
-          background-color:rgb(0, 0, 0);
-          width: 100%;
-          height: auto;
-      }
-        .img__logo{
-          width: 100px;
-          height: auto;
-          margin: 8px 0px 0px 0px;
-        }
-        .img__perfil{
-            width:120px;
-            height: auto;        
-          }
-        
-      .box__externo__mobile{
+        margin: 0px auto 0;
+        position: relative;
+    }
+    header {
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: auto;
+    }
+    .img__logo {
+        width: 100px;
+        height: auto;
+        margin: 8px 0px 0px 0px;
+    }
+    #img__logo {
+        width: 120px;
+        height: auto;
+        margin: 8px 0px 0px 0px;
+    }
+    .img__perfil {
+        width: 120px;
+        height: auto;
+    }
+    #img__perfil {
+        width: 120px;
+        height: auto;
+    }
+    .box__externo {
         display: block;
-      }
-      
-      .box__interno__mobile{
+    }
+    .box__interno__mobile {
         display: flex;
         justify-content: center;
-      
-      }
-      .icones__sociais{
-          width: 25px;
-          height: auto;
-      }
-      h1,h3,h5{
-        color:rgb(31, 30, 30, 0.979);
+    }
+    .icones__sociais {
+        width: 25px;
+        height: auto;
+        margin-left: 0.2px;
+        margin-right: 0.2px;
+    }
+    h1,
+    h3,
+    h5 {
+        color: rgb(31, 30, 30, 0.979);
         margin-bottom: 3px;
         font-family: 'Questrial';
-        }
-    
-    
-      .p__titulo{
-        color:rgb(31, 30, 30, 0.979);
+    }
+    .p__titulo {
+        color: rgb(31, 30, 30, 0.979);
         margin: 10px 0px 10px 10px;
         font-family: 'Questrial';
         font-size: 12px;
-        margin:2px;
-        }
-        .p__texto{
-        color:rgb(31, 30, 30, 0.979);
+        margin: 2px;
+    }
+    .p__texto {
+        color: rgb(31, 30, 30, 0.979);
         font-family: 'Montserrat';
         font-size: 11px;
         margin-top: 5px;
-        margin-bottom: 5px;  
-        }
-        .p__subtitulo{
-        color:rgb(31, 30, 30, 0.979);
+        margin-bottom: 5px;
+    }
+    .p__subtitulo {
+        color: rgb(31, 30, 30, 0.979);
         font-family: 'Questrial';
         font-weight: bold;
         font-size: 11px;
-        }
-      footer{
-        background-color:rgb(0, 0, 0);
+    }
+    footer {
+        background-color: rgb(0, 0, 0);
         width: 100%;
         height: auto;
         padding-bottom: 70px;
-      }
-      .p__footer{
-        color:#fff;
+    }
+    .p__footer {
+        color: #fff;
         margin: 10px;
-        
         font-family: 'Questrial';
         font-size: 10px;
-      }
-  }
-  
+    }
+}
