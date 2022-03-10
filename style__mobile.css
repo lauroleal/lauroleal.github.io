@@ -19,13 +19,12 @@ CSS dispositivos Moveis
       }
     
       .botao__colorir{
-        position: absolute;
+        position: relative;
         color:#ffffff;
         margin: 18px 10px 10px 0px;
         font-family: 'Questrial';
         font-size: 10px;
         font-weight: bold;
-        right: 54px;
         }
         body{
           background-image: url("back__mobile.png");

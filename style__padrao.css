@@ -8,9 +8,6 @@
     box-sizing: border-box;
 }
 
-
-
-
 /*
 ############################
 CSS para demais dispositivos
@@ -19,9 +16,12 @@ CSS para demais dispositivos
 
 .botao__colorir{
 color:#ffffff;
-margin: 18px 10px 10px 0px;
+margin: 18px 10px 10px 10px;
 font-family: 'Questrial';
 font-size: 14px;
+
+
+
 }
 
 .colorir{
