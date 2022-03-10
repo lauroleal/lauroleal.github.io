@@ -9,10 +9,8 @@ CSS dispositivos Moveis
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
    
-    .switch + label {
-       right: 10px;
-        
-        position: absolute;
+    .switch + label { 
+        position: relative;
         cursor: pointer;
         outline: none;
         user-select: none;
@@ -20,9 +18,8 @@ CSS dispositivos Moveis
     
       .botao__colorir{
         position: relative;
-       padding-right: 6px;
         color:#ffffff;
-        margin: 18px 4px 10px 4px;
+        margin-top: 18px;
         font-family: 'Questrial';
         font-size: 10px;
         font-weight: bold;
