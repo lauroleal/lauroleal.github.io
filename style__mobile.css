@@ -20,9 +20,9 @@ CSS dispositivos Moveis
     
       .botao__colorir{
         position: relative;
-       padding-right: 3px;
+       padding-right: 6px;
         color:#ffffff;
-        margin-top: 18px ;
+        margin: 18px 4px 10px 4px;
         font-family: 'Questrial';
         font-size: 10px;
         font-weight: bold;
