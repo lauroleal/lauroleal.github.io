@@ -6,7 +6,7 @@ let colorir = () => {
     // Faz o corpo mudar para o modo Good Vibes
     body.classList.toggle('colorir');
 
-    // outrea hora otimizo essa pate aqui
+    // outrea hora otimizo essa parte aqui
     if (body.classList.contains('colorir')) {
         document.querySelector('.botao__colorir').innerHTML = 'Modo Serio';
 
