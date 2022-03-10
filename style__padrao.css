@@ -1,0 +1,245 @@
+/* Fonte externa para os textos da pafina*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/*
+############################
+CSS para demais dispositivos
+############################
+*/
+
+.botao__colorir{
+color:#ffffff;
+margin: 18px 10px 10px 0px;
+font-family: 'Questrial';
+font-size: 14px;
+}
+
+.colorir{
+    background-image: url("back__colorir.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: auto;
+    margin: 0px auto 0;
+    position: relative;
+  }
+  body{
+    background-image: url("back.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: auto;
+    margin: 0px auto 0;
+    position: relative;
+  }
+  
+  #img__carregando{
+      width:220px;
+      height: auto;
+      margin-bottom: 23px;
+  }
+
+  .colorir > header{
+    background-color:#F22558;
+    width: 100%;
+    height: auto;
+  }
+
+  .colorir__color{
+    color:#F22558;
+    font-family: 'Questrial';
+    }
+  .colorir__titulo{
+  color:#F22558;
+  margin-bottom: 10px;
+  font-family: 'Questrial';
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+    }
+
+    .colorir__p{
+    color:#F22558;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: 'Questrial';
+    font-size: 14px;
+    
+    }
+    .colorir >  footer{
+        background-color:#F22558;
+        width: 100%;
+        height: auto;
+      }
+
+
+
+
+
+header{
+    background-color:#000;
+    width: 100%;
+    height: auto;
+}
+
+.box__externo{
+    display:flex;    
+}
+
+.box__interno{
+  display: flex;
+  flex: auto;
+  justify-content: flex-end;
+}
+
+.icones__sociais{
+    width: 33px;
+    height: auto;
+    margin: 5px 2px 0px 2px;
+}
+.box__externo__conteudo{
+  display: flex;
+  justify-content: center;
+}
+
+.box__externo__conteudo__left{
+  display: flex;
+  justify-content: flex-start;
+}
+.box__externo__conteudo__right{
+  display: flex;
+  justify-content: flex-end;
+}
+.box__externo__conteudo__space-between{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.box__externo__conteudo__center{
+  display: flex;
+  justify-content: center;
+
+}
+
+.h1,.h5{
+color:#080506;
+margin-bottom: 3px;
+font-family: 'Questrial';
+}
+.p__titulo,
+.p__titulo__2,
+.p__titulo__3{
+color:#1a090d;
+margin-bottom: 1px;
+font-family: 'Questrial';
+font-size: 16px;
+font-weight: bold;
+padding: 5px;
+}
+
+.button{
+  background-color: #000;
+  color:#fff;
+  font-family: 'Questrial';
+  width: 140px;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border:none;
+  cursor:pointer;
+}
+  
+
+.p__texto{
+color:#29000a;
+margin-top: 10px;
+margin-left: 10px;
+margin-bottom: 10px;
+font-family: 'Questrial';
+font-size: 14px;
+
+}
+
+/*Hover icones sociais header*/
+
+a.facebook:hover{
+	content: url(facebook_logo.png);
+  width: 33px;
+  height: auto;
+  margin: 5px 2px 0px 2px;
+}
+a.instagram:hover{
+	content: url(instagram_logo.png);
+  width: 33px;
+  height: auto;
+  margin: 5px 2px 0px 2px;
+}
+a.twitter:hover{
+	content: url(twitter_logo.png);
+  width: 33px;
+  height: auto;
+  margin: 5px 2px 0px 2px;
+}
+a.linkedin:hover{
+	content: url(linkedin_logo.png);
+  width: 33px;
+  height: auto;
+  margin: 5px 2px 0px 2px;
+}
+a.github:hover{
+	content: url(GitHub_logo_dark.png);
+  width: 33px;
+  height: auto;
+  margin: 5px 2px 0px 2px;
+}
+a.whatsapp:hover{
+	content: url(Whatsapp_logo.png);
+  width: 33px;
+  height: auto;
+  margin: 5px 2px 0px 2px;
+}
+
+#img__logo{
+  width:120px;
+  height: auto;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.img__logo{
+  width:120px;
+  height: auto;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#img__perfil{
+  width:170px;
+  height: auto;
+  margin-top: 8%;
+  
+}
+footer{
+  background-color:#000;
+  width: 100%;
+  height: auto;
+}
+.p__footer{
+  color:#fff;
+  margin: 10px;
+  font-family: 'Questrial';
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+.box__limite{
+  width: 40%;
+  height: auto;
+}
