@@ -19,9 +19,6 @@ color:#ffffff;
 margin: 18px 10px 10px 10px;
 font-family: 'Questrial';
 font-size: 14px;
-
-
-
 }
 
 .colorir{
@@ -155,6 +152,7 @@ padding: 5px;
   cursor:pointer;
   text-decoration: none;
   text-align: center;
+  border: none;
 }
 .button:hover{
   background-color: rgb(68, 68, 68);
@@ -169,6 +167,7 @@ padding: 5px;
   cursor:pointer;
   text-decoration: none;
   text-align: center;
+  border: none;
 }
 .button2:hover{
   background-color: #f7154ec9;

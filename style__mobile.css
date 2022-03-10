@@ -11,7 +11,7 @@ CSS dispositivos Moveis
    
     .switch + label {
        right: 10px;
-        margin: 10px;
+        
         position: absolute;
         cursor: pointer;
         outline: none;
@@ -20,11 +20,14 @@ CSS dispositivos Moveis
     
       .botao__colorir{
         position: relative;
+       
+        left:10px;
         color:#ffffff;
-        margin: 18px 10px 10px 0px;
+        margin: 18px 0px 10px 0px;
         font-family: 'Questrial';
         font-size: 10px;
         font-weight: bold;
+        
         }
         body{
           background-image: url("back__mobile.png");

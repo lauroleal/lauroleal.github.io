@@ -42,7 +42,7 @@
     transition: all 0.4s;
   }
   .switch--shadow:checked + label:before {
-    background-color: #00ff1e;
+    background-color: #ffffff;
   }
   .switch--shadow:checked + label:after {
     transform: translateX(18px);
