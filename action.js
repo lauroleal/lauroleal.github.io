@@ -35,8 +35,8 @@ let colorir = () => {
         h5.classList.toggle('colorir__color');
 
         let imgLogo = document.querySelector('#img__logo');
-        imgLogo.setAttribute('src', 'logo__Lauro__colorido.png');
-        document.getElementById('img__logo').style.width = "210px";
+        imgLogo.setAttribute('src', 'logo__novo__colorido.png');
+        document.getElementById('img__logo').style.width = "190px";
 
         let imgCarre = document.querySelector('#img__carregando');
         imgCarre.setAttribute('src', 'carregando__colorido.gif');
@@ -61,6 +61,9 @@ let colorir = () => {
 
         let whatsapp = document.querySelector('#whatsapp');
         whatsapp.setAttribute('src', 'Whatsapp_logo_dark__2.png');
+
+        let fivicon = document.querySelector('#icon');
+        fivicon.setAttribute('src', 'color__icon.png');
 
         // let butt = document.querySelector('.button').style;
         // butt.backgroundColor = "#F22558";
@@ -90,8 +93,8 @@ let colorir = () => {
         h5.classList.toggle('h5');
 
         let imgLogo = document.querySelector('#img__logo');
-        imgLogo.setAttribute('src', 'logo__Lauro.png');
-        document.getElementById('img__logo').style.width = "170px";
+        imgLogo.setAttribute('src', 'logo__novo.png');
+        document.getElementById('img__logo').style.width = "112px";
 
         let imgCarre = document.querySelector('#img__carregando');
         imgCarre.setAttribute('src', 'carregando.gif');
