@@ -11,17 +11,6 @@ let colorir = () => {
         document.querySelector('.botao__colorir').innerHTML = 'Modo Serio';
 
 
-
-
-        function GFG_Fun() {
-            var icon = document.getElementById('#icon');
-            icon.setAttribute('href', '../img/lauro__cor__icon.png');
-
-        }
-
-
-
-
         let p = document.querySelector('.p__texto');
         p.classList.remove('p__texto');
         p.classList.toggle('colorir__p');
@@ -75,15 +64,11 @@ let colorir = () => {
         whatsapp.setAttribute('src', '../img/Whatsapp_logo_dark__2.png');
 
         let fivicon = document.querySelector('#icon');
-        fivicon.setAttribute('src', '../img/color__icon.png');
-
-        // let butt = document.querySelector('.button').style;
-        // butt.backgroundColor = "#F22558";
+        fivicon.href = '../img/lauro__cor__icon.png';
 
         let a = document.querySelector('.button');
         a.classList.remove('button');
         a.classList.toggle('button2');
-
 
     } else {
         document.querySelector('.botao__colorir').innerHTML = 'Good Vibes';
@@ -140,12 +125,12 @@ let colorir = () => {
         titulo3.classList.remove('colorir__titulo');
         titulo3.classList.toggle('p__titulo__3');
 
-        // let butt = document.querySelector('.button').style;
-        // butt.backgroundColor = "#000";
-
         let a = document.querySelector('.button2');
         a.classList.remove('button2');
         a.classList.toggle('button');
+
+        let fivicon = document.querySelector('#icon');
+        fivicon.href = '../img/lauro__icon.png';
 
     }
 
