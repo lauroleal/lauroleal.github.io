@@ -68,8 +68,7 @@ let colorir = () => {
         a.classList.remove('button');
         a.classList.toggle('button2');
 
-        let fivicon = document.querySelector('#icon');
-        fivicon.href = "lauro__cor__icon.png";
+
 
     } else {
         document.querySelector('.botao__colorir').innerHTML = 'Good Vibes';
@@ -130,8 +129,7 @@ let colorir = () => {
         a.classList.remove('button2');
         a.classList.toggle('button');
 
-        let fivicon = document.querySelector('#icon');
-        fivicon.href = "lauro__icon.png";
+
 
     }
 
