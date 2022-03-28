@@ -74,7 +74,7 @@ let colorir = () => {
 
 
     } else {
-        document.querySelector('.botao__colorir').innerHTML = 'Modo Good Vibes';
+        document.querySelector('.botao__colorir').innerHTML = 'Good Vibes';
 
         let p = document.querySelector('.colorir__p');
         p.classList.remove('colorir__p');
