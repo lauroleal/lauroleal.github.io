@@ -35,35 +35,35 @@ let colorir = () => {
         h5.classList.toggle('colorir__color');
 
         let imgLogo = document.querySelector('#img__logo');
-        imgLogo.setAttribute('src', 'logo__novo__colorido.png');
+        imgLogo.setAttribute('src', '../img/logo__novo__colorido.png');
         document.getElementById('img__logo').style.width = "190px";
 
         let imgCarre = document.querySelector('#img__carregando');
-        imgCarre.setAttribute('src', 'carregando__colorido.gif');
+        imgCarre.setAttribute('src', '../img/carregando__colorido.gif');
 
         let imgPer = document.querySelector('#img__perfil');
-        imgPer.setAttribute('src', 'img__perfil__colorir.png');
+        imgPer.setAttribute('src', '../img/img__perfil__colorir.png');
 
         let facebook = document.querySelector('#facebook');
-        facebook.setAttribute('src', 'facebook_logo_dark__2.png');
+        facebook.setAttribute('src', '../img/facebook_logo_dark__2.png');
 
         let instagram = document.querySelector('#instagram');
-        instagram.setAttribute('src', 'instagram_logo-dark__2.png');
+        instagram.setAttribute('src', '../img/instagram_logo-dark__2.png');
 
         let twitter = document.querySelector('#twitter');
-        twitter.setAttribute('src', 'twitter_logo_dark__2.png');
+        twitter.setAttribute('src', '../img/twitter_logo_dark__2.png');
 
         let linkedin = document.querySelector('#linkedin');
-        linkedin.setAttribute('src', 'linkedin_logo_dark__2.png');
+        linkedin.setAttribute('src', '../img/linkedin_logo_dark__2.png');
 
         let gitHub = document.querySelector('#github');
-        gitHub.setAttribute('src', 'GitHub_logo_da__2.png');
+        gitHub.setAttribute('src', '../img/GitHub_logo_da__2.png');
 
         let whatsapp = document.querySelector('#whatsapp');
-        whatsapp.setAttribute('src', 'Whatsapp_logo_dark__2.png');
+        whatsapp.setAttribute('src', '../img/Whatsapp_logo_dark__2.png');
 
         let fivicon = document.querySelector('#icon');
-        fivicon.setAttribute('src', 'color__icon.png');
+        fivicon.setAttribute('src', '../img/color__icon.png');
 
         // let butt = document.querySelector('.button').style;
         // butt.backgroundColor = "#F22558";
@@ -93,32 +93,32 @@ let colorir = () => {
         h5.classList.toggle('h5');
 
         let imgLogo = document.querySelector('#img__logo');
-        imgLogo.setAttribute('src', 'logo__novo.png');
+        imgLogo.setAttribute('src', '../img/logo__novo.png');
         document.getElementById('img__logo').style.width = "112px";
 
         let imgCarre = document.querySelector('#img__carregando');
-        imgCarre.setAttribute('src', 'carregando.gif');
+        imgCarre.setAttribute('src', '../img/carregando.gif');
 
         let imgPer = document.querySelector('#img__perfil');
-        imgPer.setAttribute('src', 'img__perfil.png');
+        imgPer.setAttribute('src', '../img/img__perfil.png');
 
         let facebook = document.querySelector('#facebook');
-        facebook.setAttribute('src', 'facebook_logo_dark__1.png');
+        facebook.setAttribute('src', '../img/facebook_logo_dark__1.png');
 
         let instagram = document.querySelector('#instagram');
-        instagram.setAttribute('src', 'instagram_logo-dark__1.png');
+        instagram.setAttribute('src', '../img/instagram_logo-dark__1.png');
 
         let twitter = document.querySelector('#twitter');
-        twitter.setAttribute('src', 'twitter_logo_dark__1.png');
+        twitter.setAttribute('src', '../img/twitter_logo_dark__1.png');
 
         let linkedin = document.querySelector('#linkedin');
-        linkedin.setAttribute('src', 'linkedin_logo_dark__1.png');
+        linkedin.setAttribute('src', '../img/linkedin_logo_dark__1.png');
 
         let gitHub = document.querySelector('#github');
-        gitHub.setAttribute('src', 'GitHub_logo_da__1.png');
+        gitHub.setAttribute('src', '../img/GitHub_logo_da__1.png');
 
         let whatsapp = document.querySelector('#whatsapp');
-        whatsapp.setAttribute('src', 'Whatsapp_logo_dark__1.png');
+        whatsapp.setAttribute('src', '../img/Whatsapp_logo_dark__1.png');
 
         let titulo2 = document.querySelector('.colorir__titulo');
         titulo2.classList.remove('colorir__titulo');

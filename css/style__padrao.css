@@ -16,7 +16,7 @@ CSS para demais dispositivos
 */
 
 body {
-    background-image: url("back.png");
+    background-image: url("../img/back.png");
     background-repeat: no-repeat;
     background-size: auto;
     height: auto;
@@ -103,42 +103,42 @@ header {
 /*Hover icones sociais header*/
 
 a.facebook:hover {
-    content: url(facebook_logo.png);
+    content: url(../img/facebook_logo.png);
     width: 33px;
     height: auto;
     margin: 5px 0px 5px 0px;
 }
 
 a.instagram:hover {
-    content: url(instagram_logo.png);
+    content: url(../img/instagram_logo.png);
     width: 33px;
     height: auto;
     margin: 5px 0px 5px 0px;
 }
 
 a.twitter:hover {
-    content: url(twitter_logo.png);
+    content: url(../img/twitter_logo.png);
     width: 33px;
     height: auto;
     margin: 5px 0px 5px 0px;
 }
 
 a.linkedin:hover {
-    content: url(linkedin_logo.png);
+    content: url(../img/linkedin_logo.png);
     width: 33px;
     height: auto;
     margin: 5px 0px 5px 0px;
 }
 
 a.github:hover {
-    content: url(GitHub_logo_dark.png);
+    content: url(../img/GitHub_logo_dark.png);
     width: 33px;
     height: auto;
     margin: 5px 0px 5px 0px;
 }
 
 a.whatsapp:hover {
-    content: url(Whatsapp_logo.png);
+    content: url(../img/Whatsapp_logo.png);
     width: 33px;
     height: auto;
     margin: 5px 0px 5px 0px;
@@ -179,7 +179,7 @@ footer {
 }
 
 .colorir {
-    background-image: url("back__colorir.png");
+    background-image: url("../img/back__colorir.png");
     background-repeat: no-repeat;
     background-size: auto;
     height: auto;
