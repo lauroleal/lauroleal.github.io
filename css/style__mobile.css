@@ -31,14 +31,30 @@ CSS dispositivos Moveis
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 390px) {
+    #img__perfil {
+        width: 120px;
+    }
+    .icones__sociais {
+        width: 30px;
+        margin: 8px 0px 0px 0px;
+    }
+    .p__footer {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    body {
+        background-color: #fff;
+    }
     #img__perfil {
         width: 120px;
         height: auto;
         margin-top: 6%;
     }
     .switch+label {
-        margin: 10px 0px 10px 0px;
+        margin: 10px -6px 10px -6px;
     }
     .switch--shadow+label:after {
         width: 15px;
@@ -49,8 +65,14 @@ CSS dispositivos Moveis
         background-color: #ffffff;
         border-radius: 30px;
     }
+    footer {
+        margin-top: 70px;
+    }
     .icones__sociais {
-        width: 20px;
+        width: 22px;
         margin: 8px 0px 0px 0px;
+    }
+    .p__footer {
+        font-size: 8.5px;
     }
 }

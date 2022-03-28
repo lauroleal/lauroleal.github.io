@@ -10,6 +10,18 @@ let colorir = () => {
     if (body.classList.contains('colorir')) {
         document.querySelector('.botao__colorir').innerHTML = 'Modo Serio';
 
+
+
+
+        function GFG_Fun() {
+            var icon = document.getElementById('#icon');
+            icon.setAttribute('href', '../img/lauro__cor__icon.png');
+
+        }
+
+
+
+
         let p = document.querySelector('.p__texto');
         p.classList.remove('p__texto');
         p.classList.toggle('colorir__p');
@@ -36,7 +48,7 @@ let colorir = () => {
 
         let imgLogo = document.querySelector('#img__logo');
         imgLogo.setAttribute('src', '../img/logo__novo__colorido.png');
-        document.getElementById('img__logo').style.width = "190px";
+        document.getElementById('img__logo').style.width = "180px";
 
         let imgCarre = document.querySelector('#img__carregando');
         imgCarre.setAttribute('src', '../img/carregando__colorido.gif');
