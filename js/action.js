@@ -63,12 +63,13 @@ let colorir = () => {
         let whatsapp = document.querySelector('#whatsapp');
         whatsapp.setAttribute('src', '../img/Whatsapp_logo_dark__2.png');
 
-        let fivicon = document.querySelector('#icon');
-        fivicon.href = '../img/lauro__cor__icon.png';
 
         let a = document.querySelector('.button');
         a.classList.remove('button');
         a.classList.toggle('button2');
+
+        let fivicon = document.querySelector('#icon');
+        fivicon.href = 'lauro__cor__icon.png';
 
     } else {
         document.querySelector('.botao__colorir').innerHTML = 'Good Vibes';
@@ -130,7 +131,7 @@ let colorir = () => {
         a.classList.toggle('button');
 
         let fivicon = document.querySelector('#icon');
-        fivicon.href = '../img/lauro__icon.png';
+        fivicon.href = 'lauro__icon.png';
 
     }
 
